@@ -1,0 +1,29 @@
+.container {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 70px;
+}
+.container h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 372px;
+        margin: auto;
+  width: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+        
+    }
+}

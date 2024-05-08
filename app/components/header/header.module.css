@@ -1,0 +1,79 @@
+.header {
+    background-color: white;
+    border-bottom: 1px solid #dadadb;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    width: 74%;
+
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+
+}
+
+.logoContainer a {
+    background-color: white;
+}
+
+.logoContainer svg {
+    background-color: white;
+}
+
+.listContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 400px;
+    background-color: white;
+
+}
+
+.listItem a {
+    text-decoration: none;
+    /* Remove underline */
+    color: rgb(70, 70, 70);
+    background-color: white;
+    font-weight: bold;
+
+}
+
+.listItem a:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        width: 100%;
+    }
+}

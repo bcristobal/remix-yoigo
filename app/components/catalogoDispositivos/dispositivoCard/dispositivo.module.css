@@ -1,0 +1,37 @@
+.container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 10px;
+    padding-inline: auto;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+}
+
+.movile {
+    background-color: white;
+     text-align: center;    
+}
+
+.text {
+    background-color: white;
+    text-align: center;
+}
+
+.text p {
+    background-color: white;
+}
+
+.text h3 {
+    background-color: white;
+}
+
+.tarifa {
+    background-color: white;
+    text-align: center;
+}
