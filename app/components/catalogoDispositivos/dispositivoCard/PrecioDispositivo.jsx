@@ -1,4 +1,12 @@
-import styles from "@/components/catalogoDispositivos/dispositivoCard/precioDispositivo.module.css"
+import styles from "./precioDispositivo.module.css"
+import PropTypes from 'prop-types';
+
+PrecioDispositivo.propTypes = {
+    precio: PropTypes.shape({
+        mensual: PropTypes.number,
+        duracion: PropTypes.number
+    }).isRequired
+}
 
 function PrecioDispositivo({ precio }) {
     return (

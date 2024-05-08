@@ -1,13 +1,13 @@
 "use client"
 import React, { useState , useEffect } from 'react';
-import styles from "@/components/catalogoDispositivos/catalogoDispositivo.module.css";
+import styles from "./catalogoDispositivo.module.css";
 import DispositivoCard from "./dispositivoCard/DispositivoCard";
 
 function CatalogoDispositivos() {
   const [dispositivo, setDispositivo] = useState('movil');
   const [data, setData] = React.useState([]);
 
-  useEffect((type) => {
+  useEffect(() => {
     fetch('https://my-json-server.typicode.com/bcristobal/fakeAPI/' + dispositivo)
       .then(response => response.json())
       .then(data => {
