@@ -1,0 +1,18 @@
+
+.content {
+    margin: 50px;
+    margin-inline: 30%;
+}
+
+@media (max-width: 768px) {
+    .content {
+        margin-inline: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        margin: 0;
+        margin-inline: 0;
+    }
+}

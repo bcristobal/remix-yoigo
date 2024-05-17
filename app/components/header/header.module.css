@@ -27,7 +27,22 @@
     justify-content: flex-start;
     align-items: center;
     background-color: white;
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
 
+}
+
+.logoContainer span {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    padding-inline: 5px;
+}
+
+.remixLogo {
+    background-color: white;
 }
 
 .logoContainer a {
