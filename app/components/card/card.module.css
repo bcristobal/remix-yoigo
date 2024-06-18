@@ -27,3 +27,10 @@
     justify-content: center;
     
 }
+
+.logo {
+    position: relative;
+    top: -334px;
+    left: 25px;
+}
+
